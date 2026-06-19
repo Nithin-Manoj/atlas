@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Classic FIFA Moments</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+    <style>
+        body {
+            font-family: 'Open Sans Condensed', sans-serif;
+            background: #0f111a;
+            color: #f1f3f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Sonsie One', cursive;
+            color: #00f2fe;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 10px rgba(0, 242, 254, 0.3);
+        }
+        p {
+            font-size: 1.2rem;
+            color: #9ea4b5;
+            max-width: 600px;
+            margin-bottom: 2rem;
+        }
+        .image-container {
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 25px rgba(0, 242, 254, 0.2);
+            max-width: 100%;
+            width: 700px;
+            border: 3px solid rgba(255, 255, 255, 0.08);
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .image-container:hover {
+            transform: scale(1.03);
+            border-color: rgba(0, 242, 254, 0.5);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Classic FIFA Moments</h1>
+        <p>Ranking the best World Cup goals and legendary players in football history.</p>
+        
+        <div class="image-container">
+            <img src="messi.jpg" alt="Lionel Messi Bicycle Kick - Classic FIFA Moment">
+        </div>
+    </div>
+</body>
+
+</html>
